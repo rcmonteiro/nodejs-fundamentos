@@ -18,3 +18,8 @@
 - Redirection messages (300 – 399)
 - Client error responses (400 – 499)
 - Server error responses (500 – 599)
+
+# Req Content
+- Query Parameters: URL Stateful => Filtros, paginação, itens não obrigatórios para a requisição funcionar
+- Route Parameters: Identificam um recurso (ex: /api/book/1)
+- Request Body: Envio de informações, como um form, ou outras interfaces
